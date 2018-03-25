@@ -1,0 +1,198 @@
+body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 24px;
+     line-height: 1.5;
+     padding: 0;
+     margin: 0;
+}
+/* Global */
+ .container {
+     max-width: 80%;
+     margin: auto;
+     overflow: hidden;
+}
+ ul {
+     padding: 0;
+     margin: 0;
+}
+/* Header */
+ header {
+     background-color: #f91653;
+     color: #ffffff;
+     padding-top: 15px;
+     min-height: 100px;
+     padding-bottom: 100px;
+}
+ header h1 {
+     font-size: 80px;
+}
+ header a {
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 30px;
+}
+ header a:hover {
+     color: #000000;
+}
+ header li {
+     display: inline;
+     padding: 0 30px 0 20px;
+}
+ header .container h1 {
+     margin: 0;
+     float: left;
+}
+ header nav {
+     float: right;
+     margin-top: 50px;
+}
+/* Main Page */
+ .main {
+     background: linear-gradient(#f91653, #8c3b7e);
+     background-size: cover;
+     color: #ffffff;
+     padding-top: 130px;
+     padding-bottom: 200px;
+}
+ .main p {
+}
+ .container .row {
+     float: right;
+     width: 550px;
+}
+ .row h1 {
+     font-size: 50px;
+     border-bottom: 2px solid #ffffff;
+}
+/* Slideshow */
+ .grid-container {
+     display: grid;
+     grid-template-columns: 400px 400px 400px;
+     grid-gap: 200px;
+     background-color: #fff;
+     padding: 60px;
+}
+ .item {
+     color: #4a4949;
+     font-size: 25px;
+     width: 550px;
+     text-align: center;
+}
+ .slideshow h1 {
+     color: #f91653;
+}
+ .slideshow button {
+     background-color: #f91653;
+     color: #ffffff;
+     font-size: 20px;
+     border: none;
+     border-radius: 9px;
+     width: 275px;
+     height: 50px;
+     cursor: pointer;
+}
+ .slideshow button:hover {
+     background-color: #ffffff;
+     color: #f91653;
+     border: 1px solid #f91653;
+}
+/* Contact Form */
+.contactform {
+     background-color: #412258;
+     color: #ffffff;
+     padding-top: 75px;
+     box-shadow: 0 10px 50px rgba(51, 51, 51, 0.4);
+     overflow: hidden;
+     padding-bottom: 80px;
+}
+ div.contactinfo {
+     width: 650px;
+     float: left;
+     padding-right: 125px;
+
+}
+ div.contactinfo h1 {
+     font-size: 40px;
+     font-weight: 900;
+     border-bottom: 2px solid #ffffff;
+}
+ .contactinfo p {
+     font-size: 20px;
+     margin: 0;
+
+}
+ .contact a {
+     float: right;
+}
+/* Form Styles */
+ .contact form{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 25px;
+     border-radius: 9px;
+     padding: 20px;
+     margin-right: 20px;
+}
+ .contact form label{
+     display: block;
+     border-radius: 9px;
+}
+ .contact form p{
+     margin: 10px;
+}
+ .contact form .full{
+     grid-column: 1 / 3;
+      float: right;
+}
+ .contact form button, .contact form input, .contact form textarea{
+     background-color: #846f94;
+     color: #fff;
+     width: 100%;
+     padding: 1em;
+     border-color: #846f94;
+     border-radius: 9px;
+     float:right;
+}
+::placeholder {
+    color: #ffffff;
+    font-size: 20px;
+    padding:10px;
+}
+ 
+ .contact form button{
+     background-color: #ffffff;
+     color: #4a4949;
+     font-size: 20px;
+     border: none;
+     border-radius: 9px;
+     width: 275px;
+     height: 50px;
+     padding: 10px;
+}
+ .contact form button:hover,.contact form button:focus{
+     background: #846f94;
+     color: #ffffff;
+     outline: 0;
+}
+/* Footer */
+ footer {
+     background-color: #111113;
+     padding: 5px;
+     overflow: hidden;
+}
+ footer p {
+     float: left;
+     font-size: 14px;
+     color: #8e8e8e;
+     font-weight: 700;
+}
+ footer a {
+     float: right;
+     padding-top: 10px;
+     margin-right: 30px;
+     padding-right: 20px;
+     font-size: 24px;
+     color: #8e8e8e;
+}
+ 
+ /* Unfortunatelly, I've ran out of time to develop responsive styles :( */
