@@ -1,3 +1,3 @@
-"# TechnicalTask" 
+# TechnicalTask
 
-Recreteated a single wepage Munch with best approach for web development.
+Recreated a single webpage called Munch with best approaches for web development."# TechnicalTask" 
